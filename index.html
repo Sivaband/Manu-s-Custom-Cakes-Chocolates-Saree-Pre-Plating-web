@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manu's | Chocolates, Cakes & Saree Pre-pleating</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Customized chocolates, designer cakes, and saree pre-pleating services." />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        Manu’s Custom Cakes, Chocolates & <span>Saree Pre-Plating</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn-primary" onclick="scrollToSection('contact')">Book Now</button>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">🎉 Made-to-order chocolates, cakes & sarees</div>
+
+        <h1 class="hero-title">
+          Make every moment <span>sweet</span> and <span>elegant</span>.
+        </h1>
+
+        <p class="hero-subtitle">
+          Customized chocolates, designer cakes, and saree pre-pleating.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="scrollToSection('services')">View Services →</button>
+          <button class="btn-outline" onclick="scrollToSection('contact')">Get a Quote</button>
+        </div>
+
+        <p class="hero-note">Same-day delivery available in your city (subject to slots).</p>
+      </div>
+
+      <div class="hero-img">
+        <div class="hero-circle"></div>
+        <div class="hero-rect">
+          <small>• Pre-book for weekends✨</small>
+          <small>• Birthday & Anniversary cakes</small>
+          <small>• Return gift chocolates</small>
+          <small>• Bridal & function sarees</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>What We Offer</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-badge">Custom Chocolates</span>
+          <h3>Handmade Chocolates & Hampers</h3>
+          <p>Personalized chocolates with names, messages, and themes.</p>
+          <ul>
+            <li>Flavours: dark, milk, white, nutty</li>
+            <li>Return gifts & party packs</li>
+          </ul>
+          <div class="card-footer">
+            <span>Starting from ₹15/piece</span>
+            <button class="btn-outline" onclick="scrollToSection('contact')">Enquire</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="card-badge">Designer Cakes</span>
+          <h3>Fresh Cakes for Every Occasion</h3>
+          <p>Egg / eggless cakes baked only on pre-order.</p>
+          <ul>
+            <li>Photo / pinata cakes</li>
+            <li>Cupcakes & dessert table</li>
+          </ul>
+          <div class="card-footer">
+            <span>Starting from ₹550/kg</span>
+            <button class="btn-outline" onclick="scrollToSection('contact')">Book a Cake</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="card-badge">Saree Pre-pleating</span>
+          <h3>Ready-to-wear Saree Pre-pleating</h3>
+          <p>Neatly pre-pleated sarees for any function.</p>
+          <ul>
+            <li>Bridal & reception sarees</li>
+            <li>Office & daily wear</li>
+          </ul>
+          <div class="card-footer">
+            <span>24–48 hrs</span>
+            <button class="btn-outline" onclick="scrollToSection('contact')">Book Slot</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Sample Work</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://www.giftstoindia24x7.com//ASP_Img/GTI0237.jpg" alt="Birthday Cake" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://assets.winni.in/product/primary/2024/4/95058.jpeg?dpr=2&w=220" alt="Anniversary Cake" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+        </div>
+
+        <div class="gallery-item">
+          <img src="./asse/chocolate.jpeg" alt="Chocolate" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+        </div>
+
+        <div class="gallery-item">
+          <img src="./asse/cocu.jpeg" alt="Return Gift Boxes" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+        </div>
+
+        <div class="gallery-item"> 
+          <img src="./asse/saree.jpeg" alt="Saree pre pleating" style="width:100%; height:100%; object-fit:cover; border-radius:16px;"> </div>
+
+        <div class="gallery-item">Festive Combos</div>
+        <div class="gallery-item">Custom Orders</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Us</h2>
+        <p>Small home business with big heart.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p> Manu’s Custom Cakes, Chocolates & Saree Pre-Plating is a small home-based business started with a simple idea – to make celebrations sweeter, prettier, and easier. </p>
+           <p> Every chocolate is hand-crafted, every cake is baked fresh only on pre-order, and every saree is handled with care like our own. </p> 
+          <p> We focus on quality ingredients, neat finishing, and on-time delivery so you can relax and enjoy your special moments. </p>
+
+          <div class="about-highlights">
+            <span class="about-pill">✨ Homemade & Hygienic</span>
+            <span class="about-pill">📦 Custom Packaging</span>
+            <span class="about-pill">🚚 Local Delivery / Pickup</span>
+            <span class="about-pill">💬 Easy WhatsApp Booking</span>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <strong>How to order:</strong>
+          <ul>
+            <li>1. Share your requirement on WhatsApp or call.</li>
+            <li>2. Confirm design, quantity & price.</li>
+            <li>3. Pay small advance to book the date.</li>
+            <li>4. Pick up or get delivery on event day.</li>
+          </ul>
+
+          <p style="margin-top: .6rem;">
+            Pre-book at least <strong>2–3 days</strong> for cakes and
+            <strong>3–5 days</strong> for chocolate hampers / bridal sarees.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact & Booking</h2>
+        <p>Send your details and we'll get back with price & availability.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <form class="contact-form" onsubmit="return handleFormSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name*</label>
+              <input type="text" id="name" required placeholder="Your full name" />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone*</label>
+              <input type="tel" id="phone" required placeholder="WhatsApp number" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Needed*</label>
+            <select id="service" required>
+              <option value="">Select one</option>
+              <option value="chocolates">Customized Chocolates</option>
+              <option value="cakes">Designer Cakes</option>
+              <option value="saree">Saree Pre-pleating</option>
+              <option value="combo">Combo / Multiple</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Event Date</label>
+            <input type="date" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Details</label>
+            <textarea id="message"
+              placeholder="Mention quantity, theme, flavour, saree type, timing etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Submit Enquiry</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Direct Contact</h3>
+          <p><strong>Phone / WhatsApp:</strong> +91 8074 212 846</p>
+          <p><strong>Email:</strong> Anumadhan009@gmail.com</p>
+          <p><strong>Location:</strong> Mulapeta, Nellore, India</p>
+
+          <p style="margin-top: .9rem;">
+            Responding hours:
+            <strong>9:00 AM – 8:00 PM</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-float" onclick="openWhatsApp()">💬</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Manu's. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
