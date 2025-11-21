@@ -13,7 +13,7 @@ function scrollToSection(id) {
 
 // WhatsApp open
 function openWhatsApp() {
-  const phoneNumber = "918074212846";
+  const phoneNumber = "919441819409";
   const text = "Hi, I want to enquire about your services.";
   const url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(text);
   window.open(url, "_blank");
